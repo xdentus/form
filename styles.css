@@ -1,0 +1,38 @@
+body{
+    background-color: #3b9bbf;
+    color: white;
+}
+.form1{
+    display: inline-block;
+    width: 300px;
+    float: left;
+    text-align: right;
+    line-height: 2;
+}
+.form2{
+    display: inline-block;
+    width: 300px;
+    float: right;
+    text-align: right;
+    line-height: 2;
+}
+select{
+    width: 150px;
+}
+.button{
+    width: 8rem;
+    background-color: #0a5d7b;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    border: teal solid 1px;
+}
+.kontener{
+    width: 610px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 25px;
+    display: inline-block;
+}

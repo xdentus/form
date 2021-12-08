@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>formularz</title>
+</head>
+<body>
+<div class="kontener">
+    <h1 style="text-align: left">Szukaj ofert</h1>
+    <h1 style="text-align: right; float: right">Liczba ofert w naszej bazie: 2421</h1>
+    <hr>
+    <div class="form1">
+        <form>
+            <label for="typ">Typ: </label>
+            <select id="typ" name="typ">
+                <option value="Mieszkania" selected>Mieszkania</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <label for="rodzajoferty">Rodzaj oferty: </label>
+            <select id="rodzajoferty" name="rodzajoferty">
+                <option value="Oferty sprzedaży" selected>Oferty sprzedaży</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <label for="liczbapokoi">Liczba pokoi: </label>
+            <select id="liczbapokoi" name="liczbapokoi">
+                <option value="wybierz" selected>Wybierz</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            Pow. od:
+            <input type="text" id="od" name="od" style=" width: 2rem">
+            do:
+            <input type="text" id="do" name="do" style="width: 2rem"><br><br>
+            <label for="zdnia">Z dnia: </label>
+            <select id="zdnia" name="zdnia">
+                <option value="wszystkie" selected>Wszystkie</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <label for="nroferty">Nr oferty</label>
+            <input type="text" id="nroferty" name="nroferty" style="width: 150px"><br><br>
+            Wyświetlaj oferty tylko ze zdjęciem<br>
+            <label for="tak">tak</label>
+            <input type="radio" id="tak" name="wybor" value="tak">
+            <label for="nie">nie</label>
+            <input type="radio" id="nie" name="wybor" value="nie">
+
+        </form>
+    </div>
+    <div class="form2">
+        <form>
+            <label for="miasto">Miasto: </label>
+            <input type="text" id="miasto" name="miasto"><br>
+            <label for="dzielnica">Dzielnica: </label>
+            <input typ="text" id="dzielnica" name="dzielnica"><br>
+            <label for="ulica">Ulica: </label>
+            <input type="text" id="ulica" name="ulica"><br>
+            Cena od:
+            <input type="text" id="od1" name="od1" value="0" style="width: 2rem">
+            do:
+            <input type="text" id="do1" name="do1" value="0" style="width: 2rem">
+            <select id="waluta" name="waluta" style="width: 4rem">
+                <option value="PLN">PLN</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            Cena za metr od:
+            <input type="text" id="od2" name="od2" value="0" style="width: 2rem">
+            do:
+            <input type="text" id="do2" name="do2" value="0" style="width: 2rem">
+            <input type="text" id="blank" name="blank" style="width: 3.5rem; visibility: hidden"><br>
+            Opis dodatkowy
+            <input type="text" id="opis" name="opis"><br><br>
+            <label for="rok">Rok budowy od: </label>
+            <select id="rok" name="rok" style="width: 7rem">
+                <option value="wybierz">Wybierz</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <label for="rok1">do: </label>
+            <select id="rok1" name="rok1" style="width: 7rem">
+                <option value="wybierz">Wybierz</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <label for="ile">Ile na stronie</label>
+            <select id="ile" name="ile" style="width: 4rem">
+                <option value="20">20</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+                <option value="---">---</option>
+            </select><br>
+            <input type="button" value="Wyszukaj" class="button">
+        </form>
+    </div>
+</div>
+</body>
+</html>
